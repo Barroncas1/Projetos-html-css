@@ -1,0 +1,93 @@
+/*#00BFA6
+#C2C2C2
+*/
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Open+Sans&display=swap');
+
+body {
+    background-color: #2F2E41;
+    font-family: 'Open Sans', sans-serif;
+    color: #C2C2C2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.page {
+    width: 1100px;
+    margin: 0 auto;
+
+  }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #C2C2C2;
+}
+
+ul a:hover {
+    font-weight: bold;
+    
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    
+    width: 1100px;
+    
+}
+
+section {
+    width: 600px;
+
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'JetBrains Mono', sans-serif;
+}
+span {
+    color: #00BFA6;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+footer {
+    margin-top: 150px;
+}
+
+
+#line {
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px solid #00BFA6;
+}
+
+#lock {
+    margin: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
