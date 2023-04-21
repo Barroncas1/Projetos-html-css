@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap');
+
+/* #FF5374*/
+
+body, input, section, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #EFEFEF;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 436px;
+    background-color: #535971;
+    z-index: -1;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+}
+
+header h1 {
+    margin-top: 140px;
+    font-family: 'Staatliches', sans-serif;
+    color: white;
+    font-size: 48px;
+}
+
+header p {
+    margin-top: 18px;
+    width: 417px;
+    font-size: 20px;
+    color: white;
+}
+
+form {
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    margin-top: 58px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    min-height: 300px;
+    
+}
+    
+
+fieldset {
+    border: none;
+}
+
+.fildset-wrapped {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 622px;
+}
+    
+
+.fildset-wrapped legend {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #535971;
+    border-bottom: 1px solid #E6E6F0;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    
+
+}
+
+
+.input-wrapped {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    columns: 2;
+    gap: 22px;
+}
+
+.name div {
+    width: 300px;
+    
+}
+
+.input-wrapped input {
+    background-color: #FAFAFC;
+    height: 56px;
+    border-radius: 8px;
+    padding: 0 24px;
+    border: 1px solid #E6E6F0;
+
+}
+
+.input-wrapped span {
+    color: #C1BCCC;
+}
+
+.text {
+   
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    height: 30px;
+}
+
+.text legend {
+    color: #535971;
+    font-size: 20px;
+    border: none;
+}
+
+.input-wrapped label {
+    margin-bottom: 8px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    columns: 3; 
+    gap: 32px;
+}
+
+/*
+#input-date {
+    margin-right: 12px;
+    width: 300px;
+}
+
+#input-beggining{
+    margin-right: 10px;
+    width: 140px;
+}
+
+#input-end {
+    width: 140px;
+}
+*/
+footer {
+    background-color: #535971;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 71px;
+    
+    margin-bottom: 366px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.button {
+    
+    padding: 15px 40px;
+    gap: 10px;
+
+    position: absolute;
+    width: 608px;
+    height: 56px;
+    background: #FF5374;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.button:hover {
+    background-color: #fb244f;
+}
+
